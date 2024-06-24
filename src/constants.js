@@ -1,1 +1,4 @@
-export const API_KEY = "33808b84c930a57d20b7095948c1c371" ; // Ganti dengan kunci API OpenWeatherMap Anda
+// constants.js
+import { API_KEY as ENV_API_KEY } from "@env";
+
+export const API_KEY = ENV_API_KEY;
